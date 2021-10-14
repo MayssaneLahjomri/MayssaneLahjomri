@@ -1,0 +1,41 @@
+body
+{
+	background-image:url(images/mmm1.jpg);
+	color: black;
+
+}
+h1 {
+  color: black;
+  font-size: 4em;
+}
+
+figure {
+  text-align:center;
+}
+
+div{
+	background-color: whitesmoke;
+	border-radius: 17px;
+	margin: 25px;
+	padding: 22px 33px;
+	box-shadow: 0px 16px 31px rgba(50, 50, 50, 1.0);
+		text-align: center;
+}
+img { 
+	margin-top: 10px;
+}
+
+ul {
+  border: 3px solid black;
+  box-shadow: 2px 2px 5px black;
+}
+.img-fullwidth{ width: 90%;
+
+}
+
+/* MEDIA QUERIS */
+@media (max-width: 720px) and {
+	.container {
+		background-color: black;
+	}
+}
